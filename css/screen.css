@@ -58,7 +58,7 @@ a.btn {
   text-decoration: none;
   color: #060000;
   border: 3px solid #000000;
-  padding: 4px 15px;
+  padding: 4px 10px;
   transition: background-color 0.5s;
 }
 
@@ -84,6 +84,7 @@ header {
   height: 430px;
   background: #605D63 url(../images/310560_screenshots_20190311153336_1.jpg)no-repeat center bottom;
   position: relative;
+  filter:
 }
 
 header a.logo {
@@ -367,4 +368,69 @@ footer a:visited {
 footer a:hover {
   margin-left: 30px;
   color: #000;
+}
+
+footer.socmed aside .content.fb {
+  background-image: url(../images/);
+}
+
+
+.resize {   
+  width: auto;
+  display: inline-block;
+}
+
+.resize img {
+  width: 3%; /* Will shrink image to 30% of its original width */
+  height: auto;    
+  position: absolute;
+  right: 0px;
+}
+
+.resizeinsta {   
+  width: auto;
+  display: inline-block;
+}
+
+.resizeinsta img {
+  width: 3%; /* Will shrink image to 30% of its original width */
+  height: auto;    
+  position: absolute;
+  right: 50px;
+}
+
+.twitter {
+	width: auto;
+	display: inline-block;
+}
+
+.twitter img {
+	width: 3%;
+	height: auto;
+	position: absolute;
+	right: 100px;
+}
+
+.youtube {
+	width: auto;
+	display: inline-block;
+}
+
+.youtube img {
+	width: 3%;
+	height: auto;
+	position: absolute;
+	right: 150px;
+}
+
+.steam {
+	width: auto;
+	display: inline-block;
+}
+
+.steam img {
+	width: 3%;
+	height: auto;
+	position: absolute;
+	right: 200px;
 }
