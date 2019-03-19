@@ -45,6 +45,10 @@ p {
   margin: 0 0 1em 0;
 }
 
+strong {
+	color: #FFFFFF
+}
+
 a {
   color: #007eff;
 }
@@ -60,10 +64,11 @@ a.btn {
   border: 3px solid #000000;
   padding: 4px 10px;
   transition: background-color 0.5s;
+  background: #000000
 }
 
 a.btn:hover {
-  background-color: rgba(0,0,0,0.3); 
+  background-color: rgba(0,0,0,0.8); 
 }
 
 a.btn1 {
@@ -434,4 +439,8 @@ footer.socmed aside .content.fb {
 	height: auto;
 	position: absolute;
 	right: 200px;
+}
+
+.fontheader {
+	color: #FFFFFF
 }
