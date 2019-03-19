@@ -75,8 +75,8 @@ a.btn1 {
   transition: background-color 0.5s;
 }
 
-a.btn:hover {
-  background-color: rgba(0,0,0,0.3); 
+a.btn1:hover {
+  background-color: rgba(255,255,255,0.3); 
 }
 
 /* Header */
