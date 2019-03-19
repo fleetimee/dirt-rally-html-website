@@ -1,4 +1,4 @@
 # mystaticweb
-<h1>Tugas Web pak firman barely function xD</h1>
 
+Tugas Web pak firman barely evenfunction xD<br>
 [Demo version](https://novian227.github.io/mystaticweb/)
