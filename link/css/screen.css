@@ -99,29 +99,7 @@ header a.logo {
   left: 20px;
 }
 
-header div.hero {
-  position: absolute;
-  width: 42%;
-  top: 130px;
-  left: 55%;
-}
-
-header div.hero h1 {
-  line-height: 1em;
-  margin: 0 0 30px 0;
-  color: #000000;
-}
-
-
-/* Header About */
-about {
-  height: 430px;
-  background: #605D63 url(../images/aboutpage_slider_02.jpg)no-repeat center bottom;
-  position: relative;
-  filter:
-}
-
-about a.logo {
+header a.logobnw {
   z-index: 1;
   position: absolute;
   display: block;
@@ -131,16 +109,19 @@ about a.logo {
   background-size: contain;
   top: 15px;
   left: 20px;
+  filter: grayscale(100%) brightness(150);
+
 }
 
-about div.hero {
+
+header div.hero {
   position: absolute;
   width: 42%;
   top: 130px;
   left: 55%;
 }
 
-about div.hero h1 {
+header div.hero h1 {
   line-height: 1em;
   margin: 0 0 30px 0;
   color: #000000;
@@ -176,6 +157,8 @@ section.main .content {
   background-size: 75px 75px;
   padding-top: 85px;
 }
+
+section.main 
 
 section.main aside h3 a{
   color: #000;
@@ -322,7 +305,7 @@ nav ul {
 }
 
 nav ul li:hover {
-  background-color: #2b0306;
+  background-color: #000000;
 }
 
 nav ul li:hover > ul {
@@ -343,13 +326,13 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  background-color: #6d0911;
+  background-color: #000000;
 }
 
 nav ul ul {
   position: absolute;
   top: 100%;
-  background-color: #2b0306;
+  background-color: #1A1918;
   display: none;
 }
 
@@ -468,3 +451,11 @@ footer.socmed aside .content.fb {
 	position: absolute;
 	right: 200px;
 }
+
+
+.aboutbanner  {
+  height: 430px;
+  background: url(../images/aboutpage_slider_01.jpg)no-repeat center bottom;
+  position: relative;
+}
+	
