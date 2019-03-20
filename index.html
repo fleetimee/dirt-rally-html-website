@@ -5,6 +5,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Dirt Rally</title>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/screen.css'/>
+	<link rel='stylesheet' type='text/css' media='screen' href='css/popupheader.css'/>
+
   </head>
   <body>
   <div id='page'>
@@ -12,10 +14,19 @@
         <a class='logo' title='DiRT Rally' href='index.html'></a>
         <div class='hero'>
           <h1>Dirt Rally Fansite</h1>
-        	<a class="btn" title="GabeN" href="./link/steam/DiRT Rally on Steam.html">
+        	<a class="btn" title="GabeN" href="#popup1">
 				<strong>Buy Dirt Rally on Steam</strong>
 			</a>
 		</div>
+		<div id="popup1" class="overlay">
+			<div class="popup">
+			<h2>Dirt Rally on Steam</h2>
+			<a class="close" href="#">&times;</a>
+				<div class="content">
+				 <iframe src="https://store.steampowered.com/widget/310560/" frameborder="0" width="646" height="190"></iframe>
+				</div>
+			</div>  
+		  </div>
       </header>
 
       <section class='main'>
